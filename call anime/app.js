@@ -1,3 +1,4 @@
+document.title='Anime'
 const api={
     ApiRecentRelease:'https://gogoanime.consumet.org/recent-release',
     ApiMovie:'https://gogoanime.consumet.org/anime-movies',

@@ -1,0 +1,44 @@
+@media (max-width:790px) {
+    .header,
+    .box{
+        width: 100%;
+        overflow: hidden;
+        padding: 0 5px;
+    }
+    .header{
+        padding: 0 16px;
+        overflow-x: auto;
+    }
+    .c-100-8{
+        flex:0 0 auto;
+        width:48%;
+        cursor: pointer;
+    }
+    #list-anime .anime-item {
+        width: calc(100% / 2);
+        padding: 6.25px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:300px) {
+    .header,
+    .box{
+        width: 100%;
+        overflow: hidden;
+        padding: 0 5px;
+    }
+    .header{
+        padding: 0 16px;
+        overflow-x: auto;
+    }
+    .c-100-8{
+        flex:0 0 auto;
+        width:48%;
+        cursor: pointer;
+    }
+    #list-anime .anime-item {
+        width: calc(100% );
+        padding: 16px;
+        margin-bottom: 10px;
+    }
+}
