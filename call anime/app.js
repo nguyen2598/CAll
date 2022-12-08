@@ -38,12 +38,12 @@ function getAnime(callback,Api){
 
 function renderAinme(animeList){
     // console.log(animeList)
-    // console.log(animeList.animeImg)
+    console.log(animeList)
     let listAnimeBlock= document.querySelector('#list-anime')
     let htmls = animeList.map(anime=>{
         return `
             <div class="anime-item">
-                <a class="anime" href=${anime.episodeUrl}>
+                <a class="anime" href=${anime.episodeUrl||anime.animeUrl}>
                     <div class="anime-img">
                         <img src="${anime.animeImg}" alt="">
                     </div>
